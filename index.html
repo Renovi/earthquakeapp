@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Live Earthquake App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='icon' href='favicon.ico' type='image/x-icon'> <!-- icon downloaded from: https://www.favicon.cc/?action=icon&file_id=816724-->
+</head>
+
+<body>
+
+    <div id="map"></div>
+
+<div class="scrollBox">
+    <table id="tableSummary">
+        <tr>
+            <th>Place</th>
+            <th>Start time</th>
+            <th>Magnitude</th>
+        </tr>
+    </table>
+</div>
+    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfjbnBFgrPHuUk6BAcjkpq-kY4yDNJha8&callback=initMap"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
